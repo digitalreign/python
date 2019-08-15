@@ -94,3 +94,19 @@ print(numbers[10::-4]+numbers[:10:-4])
 # 20190813 Page 31 
 # A value can be printed mulitple times 
 print(numbers[10::-4])*5
+
+# 20190814 Sequence Multiplications page 31
+# This should take the month selected and print it in the box. 
+sentence = month_name
+screen_width = 80
+text_width = len(sentence)
+box_width = text_width + 6
+left_margin = (screen_width - box_width) // 2
+print()
+print(' ' * left_margin + '+' + '-' * (box_width-4) + '+')
+print(' ' * left_margin + '| ' + ' ' * text_width + ' |')
+print(' ' * left_margin + '| ' + sentence + ' |')
+print(' ' * left_margin + '| ' + ' ' * text_width + ' |')
+print(' ' * left_margin + '+' + '-' * (box_width-4) + '+')
+print()
+
