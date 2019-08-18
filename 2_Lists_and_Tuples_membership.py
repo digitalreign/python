@@ -1,6 +1,6 @@
 # 20190815 BeginningPython Chapter 2 
 
-# 20190815 page 34 
+# 20190815 page 33
 # Check a user name and PIN code
 database = [
 ['albert', '1234'],
