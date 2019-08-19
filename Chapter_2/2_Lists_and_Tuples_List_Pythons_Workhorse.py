@@ -38,3 +38,24 @@ print (capital)
 # Add ly
 capital[5:] = list('ly')
 print (capital)
+# 20190819 page 36 append
+months.append('Californiary')
+print(months)
+# months.clear() and months[:] = [] would clear the list and I merged the copy command with it so that I could get all results
+monthsclear = months[:]
+monthsclear[2] = 'Summer'
+print('The Correct Months')
+print(months)
+print('The Rogue Months')
+print(monthsclear)
+print('Clearing the Rogue Months')
+monthsclear[:] =[]
+print('The Cleared Months')
+print(monthsclear)
+print('The Correct Months')
+print(months)
+# 20190819 page 37 counting
+months.count('July')
+
+
+
