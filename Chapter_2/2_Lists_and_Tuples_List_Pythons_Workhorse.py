@@ -56,6 +56,33 @@ print('The Correct Months')
 print(months)
 # 20190819 page 37 counting
 months.count('July')
+# 20190820 page 37 extend
+# months.extend and months + alternatemonths would work.
+alternatemonths = ['Sol', 'Elephant','Holiday']
+months.extend(alternatemonths)
+print('Extended Months')
+print(months)
+# insert
+months.insert(2, 'March')
+print('Added March back in')
+print(months)
+# pop
+months.pop()
+print('Removing Holiday')
+print(months)
+# 20190920 page 40 remove
+months.remove('Elephant')
+print('Removing Elephant')
+print(months)
+months.remove('Sol',)
+print('Removing Sol')
+print(months)
+months.remove('Californiary')
+print('Removing Californiary')
+print(months)
+
+
+
 
 
 
