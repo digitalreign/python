@@ -55,7 +55,9 @@ print(monthsclear)
 print('The Correct Months')
 print(months)
 # 20190819 page 37 counting
-months.count('July')
+# 20190821 added question an print statement
+print('How many Julys do we have?')
+print(months.count('July'))
 # 20190820 page 37 extend
 # months.extend and months + alternatemonths would work.
 alternatemonths = ['Sol', 'Elephant','Holiday']
@@ -70,7 +72,7 @@ print(months)
 months.pop()
 print('Removing Holiday')
 print(months)
-# 20190920 page 40 remove
+# 20190820 page 40 remove
 months.remove('Elephant')
 print('Removing Elephant')
 print(months)
@@ -80,9 +82,16 @@ print(months)
 months.remove('Californiary')
 print('Removing Californiary')
 print(months)
-
-
-
-
-
+# 20190821 page 40 reverse
+months.reverse()
+print('Reversing the Months')
+print(months)
+# 20190821 page 40 sort
+months.sort()
+print('Sorting the Months')
+print(months)
+# if you want to sort but keep the original you will want to copy the original and then sort the copy.
+# months_sorted = months()
+# months_sorted.sort()
+print(sorted('Months'))
 
