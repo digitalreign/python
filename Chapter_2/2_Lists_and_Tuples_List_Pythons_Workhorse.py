@@ -82,6 +82,7 @@ print(months)
 months.remove('Californiary')
 print('Removing Californiary')
 print(months)
+
 # 20190821 page 40 reverse
 months.reverse()
 print('Reversing the Months')
@@ -94,4 +95,11 @@ print(months)
 # months_sorted = months()
 # months_sorted.sort()
 print(sorted('Months'))
-
+# 20190822 page 42 Advanced sort
+months.sort(key=len)
+print('Sorting the Months by Length')
+print(months)
+# Reverse Sort
+months.sort(reverse=True)
+print('Reverse Sorting the Months')
+print(months)
