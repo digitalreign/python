@@ -17,6 +17,13 @@ print("{1}, {3}, {5}, {0}, {2}, {4} and {6}".format('Monday', 'Tuesday', 'Wednes
 
 # 20190823 page 46
 # Grabbing values and inputting them into a statement.
-from math import pi
-print("{name} is approximately {value:.2f}.".format(value=pi, name="π"))
-print("{name} is approximately {value}.".format(value=pi, name="π"))
+# Removed the pi portion
+
+# 20190824 page 47
+# Replacement Field Names
+print("{first} {} {third} {}".format('Tuesday', 'Thursday', third='Wednesday', first='Monday'))
+fullname = ["Monday", "Wednesday"]
+print("Hello Mr. {name[1]}".format(name=fullname))
+# Page 48
+# Binary Conversion
+print("{num} is {num:b} in binary".format(num=42))
