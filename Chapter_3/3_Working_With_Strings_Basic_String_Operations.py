@@ -27,3 +27,22 @@ print("Hello Mr. {name[1]}".format(name=fullname))
 # Page 48
 # Binary Conversion
 print("{num} is {num:b} in binary".format(num=42))
+
+# 20190826 page 49 Width, Precision, and Thousands Separators
+print("{num:9}".format(num=9))
+print("{num:8}".format(num=8))
+print("{num:7}".format(num=7))
+print("{num:6}".format(num=6))
+print("{num:5}".format(num=5))
+print("{num:4}".format(num=4))
+print("{num:3}".format(num=3))
+print("{num:2}".format(num=2))
+print("{num:1}".format(num=1))
+# num 1 and num 0 are the same
+print("{num:0}".format(num=0))
+print("{name:10}".format(name="January"))
+print('Should print only the first 5 letters of January')
+# 20190826 pg 50 Precision and separators
+print("{:.5}".format("January, February, March"))
+print('This is one googol.')
+print('{:,}'.format(10**100))
