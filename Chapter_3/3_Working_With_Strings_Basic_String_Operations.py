@@ -50,7 +50,7 @@ print('{:,}'.format(10**100))
 print('{0:<10}\n{0:^10}\n{0:>10}'.format('WIN BIG'))
 print("{:$^15}".format(" WIN BIG "))
 # String formatting
-# Print a formatted price list with a given width
+# pg 52 Print a formatted price list with a given width
 width = int(input('Please enter width that is greater than 10: '))
 price_width = 10
 item_width = width - price_width
