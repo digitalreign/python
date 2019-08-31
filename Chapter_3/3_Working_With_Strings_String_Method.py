@@ -15,3 +15,13 @@ print(day.find('Thursday'))
 print(day.find('Friday'))
 print(day.find('Saturday'))
 print(day.find('Sunday'))
+
+# 20190831 Join
+dirs = '', 'usr', 'bin', 'env'
+'/'.join(dirs)
+print('C:' + '\\'.join(dirs))
+
+# Lower
+print('Thursday, Friday, Saturday'.lower())
+if 'Friday' in (day): print('Found The Friday!')
+if 'friday' in (day): print('Found The friday!')
