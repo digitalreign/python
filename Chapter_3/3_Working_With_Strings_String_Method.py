@@ -24,4 +24,5 @@ print('C:' + '\\'.join(dirs))
 # Lower
 print('Thursday, Friday, Saturday'.lower())
 if 'Friday' in (day): print('Found The Friday!')
-if 'friday' in (day): print('Found The friday!')
+elif 'friday' in (day): print('Found The friday!')
+else: print('There was no Friday or friday!')
