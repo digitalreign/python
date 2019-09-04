@@ -38,3 +38,9 @@ print('Time to split the title.')
 print((friday_search).split())
 print('Time to get rid of all that whitespace')
 print((friday_search).strip())
+
+# 20190903 Translation page 57
+table = str.maketrans('cs', 'kz')
+print('This is the table')
+print(table)
+print('this is an incredible test'.translate(table))
