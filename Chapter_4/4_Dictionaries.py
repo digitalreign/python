@@ -31,3 +31,6 @@ monthly[11] = 'November'
 monthly[12] = 'December'
 print('The Monthly Dictionary')
 print(monthly)
+# 20190905 page 61
+print('This should print February:')
+print(monthly[2])
