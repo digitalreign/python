@@ -37,3 +37,16 @@ if request == 'a': key = 'addr'
 # our dictionary:
 if name in people: print("{}'s {} is {}.".format(name, labels[key], people[name][key]))
 else: print('Name not found.')
+
+# 20190907 String Formatting with Dictionaries page 63
+zipcode = {'January': '010101', 'February': '020202', 'April': '040404'}
+print("January's zipcode is {January}.".format_map(zipcode))
+
+# clear page 64
+clear = {}
+clear['name'] = 'January'
+clear['age'] = 42
+print(clear)
+returned_value = clear.clear()
+print(clear)
+print(returned_value)
