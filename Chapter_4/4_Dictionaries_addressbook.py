@@ -50,3 +50,13 @@ print(clear)
 returned_value = clear.clear()
 print(clear)
 print(returned_value)
+
+# 20190909 copy page 64
+Seasons = {'Season': 'Spring', 'Months': ['March', 'April', 'May']}
+print('The Old Seasons')
+print(Seasons)
+New_Seasons = Seasons.copy()
+New_Seasons['Season'] = 'Summer'
+New_Seasons['Months'].remove('March')
+print('The New Seasons')
+print(New_Seasons)
