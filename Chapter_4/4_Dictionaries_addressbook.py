@@ -60,3 +60,9 @@ New_Seasons['Season'] = 'Summer'
 New_Seasons['Months'].remove('March')
 print('The New Seasons')
 print(New_Seasons)
+
+# 20190910 fromkeys page 65-66
+{}.fromkeys(['day', 'appointments'])
+week = {}
+print('Should return None')
+print(week.get('day'))
