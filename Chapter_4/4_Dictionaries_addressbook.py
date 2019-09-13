@@ -87,3 +87,14 @@ person = people.get(name, {})
 label = labels.get(key, key)
 result = person.get(key, 'not available')
 print("{}'s {} is {}.".format(name, label, result))
+
+# 20190913 get page 67
+
+d = {'title': 'Python Web Site', 'url': 'http://www.python.org', 'spam': 0}
+print('Print the full dictionary')
+print(d.items())
+it = d.items()
+print('How many items are in the item dictionary?')
+print(len(it))
+print('Does a dictionary item have spam in it?')
+print(('spam', 0) in it)
