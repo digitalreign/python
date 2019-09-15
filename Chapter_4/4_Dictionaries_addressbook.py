@@ -98,3 +98,11 @@ print('How many items are in the item dictionary?')
 print(len(it))
 print('Does a dictionary item have spam in it?')
 print(('spam', 0) in it)
+
+# 20190915 pop page 68
+d.pop('url')
+print('Remove the URL')
+print(d.items())
+print('Remove a random element')
+d.popitem()
+print(d.items())
