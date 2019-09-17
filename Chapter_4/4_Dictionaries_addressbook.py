@@ -106,3 +106,13 @@ print(d.items())
 print('Remove a random element')
 d.popitem()
 print(d.items())
+
+# 20190917 setdefault page 68
+d.setdefault('name', 'N/A')
+print(d)
+d['name'] = 'Wakka Wakka'
+print('Should Print Wakka Wakka')
+print(d)
+d.setdefault('name', 'N/A')
+print('Should Print Wakka Wakka')
+print(d)
