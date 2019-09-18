@@ -116,3 +116,11 @@ print(d)
 d.setdefault('name', 'N/A')
 print('Should Print Wakka Wakka')
 print(d)
+
+# 20190918 update page 69
+x = {'title': 'Totally Not a Python Website'}
+print('The value of x:')
+print(x)
+d.update(x)
+print('The Updated version of d:')
+print(d)
