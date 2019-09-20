@@ -124,3 +124,12 @@ print(x)
 d.update(x)
 print('The Updated version of d:')
 print(d)
+
+# 20190920 update page 69
+print('Print the Values of d:')
+print(d.values())
+d[3] = 'https://totallynotapythonwebsite.com'
+d[4] = 'September 20, 2019'
+print('Print the two additional Values of d:')
+print(d.values())
+
