@@ -125,7 +125,7 @@ d.update(x)
 print('The Updated version of d:')
 print(d)
 
-# 20190920 update page 69
+# 20190920 value page 69
 print('Print the Values of d:')
 print(d.values())
 d[3] = 'https://totallynotapythonwebsite.com'
