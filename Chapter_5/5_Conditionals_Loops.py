@@ -25,15 +25,23 @@ print(notsqrt(9))
 # Assignment Magic
 
 # 20190928 page 73-74 Sequence Unpacking
+# 20190929 page 74 added more months and added *rest
 x, y, z = 'January', 'February', 'March'
 print('Should be January, February, March:')
 print(x, y, z)
 x, y = y, x
 print('Should be February, January, March:')
 print(x, y, z)
-months = 'April', 'May', 'June'
+months = 'April', 'May', 'June', 'July', 'August'
 print('Should be April, May, June:')
 print(months)
-t, u, v = months
+t, u, v, *rest = months
 print('Should be April:')
 print(t)
+
+# 20190929 page 74 Sequence Unpacking
+# star
+monthly = "April May June July August"
+first, *middle, last = monthly.split()
+print('Should be May, June, July')
+print(middle)
