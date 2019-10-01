@@ -45,3 +45,26 @@ monthly = "April May June July August"
 first, *middle, last = monthly.split()
 print('Should be May, June, July')
 print(middle)
+
+# 20191001 page 75 Augmented Assignments
+x = 2
+print('Should be 2:')
+print(x)
+x += 1
+print('Should be 3:')
+print(x)
+x *= 2
+print('Should be 6:')
+print(x)
+
+weekday = 'Sun'
+print('Should print Sun:')
+print(weekday)
+weekday += 'day'
+print('Should print Sunday:')
+print(weekday)
+weekday *= 2
+print('Should print SundaySunday:')
+print(weekday)
+
+
