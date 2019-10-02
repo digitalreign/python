@@ -66,5 +66,3 @@ print(weekday)
 weekday *= 2
 print('Should print SundaySunday:')
 print(weekday)
-
-
