@@ -11,5 +11,15 @@ print(bool('Something here'))
 
 # 20191003 page 78 if and else clauses
 name = input('What is your name? ')
-if name.endswith('Gumby'):
-    print('Hello, Mr. Gumby')
+if name.endswith('Reign'):
+# 20191004 page 78-79 elif and Nesting Blocks
+    if name.startswith('Mr.'):
+        print('Hello Mr. Reign')
+    elif name.startswith('Mrs.'):
+        print('Hello Mrs. Reign')
+    else:
+        print('Hello, Reign')
+else:
+    print('Hello, Stranger')
+status = "friend" if name.endswith("Reign") else "stranger"
+print(status)
