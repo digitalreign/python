@@ -23,3 +23,13 @@ else:
     print('Hello, Stranger')
 status = "friend" if name.endswith("Reign") else "stranger"
 print(status)
+
+# 20191007 page 81 is The Identity Operator
+x = y = [1, 2,3]
+z = [1, 2,3]
+print("Three truths and a lie:")
+print(x == y)
+print(x == z)
+print(x is y)
+# is checks for identity and not equality
+print(x is z)
