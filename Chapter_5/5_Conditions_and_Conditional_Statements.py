@@ -33,3 +33,9 @@ print(x == z)
 print(x is y)
 # is checks for identity and not equality
 print(x is z)
+
+# 20191009 page 82 in The Membership Operator
+if 'y' in name:
+    print('Your name contains the letter "a".')
+else:
+    print('Your name does not contain the letter "y".')
