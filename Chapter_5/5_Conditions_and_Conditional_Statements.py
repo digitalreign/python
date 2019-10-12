@@ -39,3 +39,13 @@ if 'y' in name:
     print('Your name contains the letter "a".')
 else:
     print('Your name does not contain the letter "y".')
+
+# 20191012 page 83 Boolean Operators
+number = int(input('Enter a number between 1 and 10: '))
+if number <= 10:
+    if number >= 1:
+        print('Great!')
+    else:
+        print('Wrong!')
+else:
+    print('Wrong!')
