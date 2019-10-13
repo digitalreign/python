@@ -49,3 +49,11 @@ if number <= 10:
         print('Wrong!')
 else:
     print('Wrong!')
+
+# 20191013 page 83 Boolean Operators and assertions
+if number <= 10 and number >= 1:
+    print('Great! Great!')
+else:
+    print('Wrong! Wrong!')
+age = int(input('Enter your age:'))
+assert 0 < age < 100, 'Come on, pick a real age.'
