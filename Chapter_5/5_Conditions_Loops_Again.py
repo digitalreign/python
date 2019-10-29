@@ -47,3 +47,10 @@ for n in range(2, 100, 1):
     if root == int(root):
         print(n)
         break
+
+# 20191029 page 91 While True
+while True:
+    letters = input('Please enter a word, or hit enter to quit: ')
+    if not letters: break
+    # do something with the word:
+    print('The word was ', letters)
