@@ -54,3 +54,6 @@ while True:
     if not letters: break
     # do something with the word:
     print('The word was ', letters)
+
+# 20191121 Getting back into the swing
+print("Welcome Back")
