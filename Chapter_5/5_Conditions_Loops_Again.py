@@ -57,3 +57,13 @@ while True:
 
 # 20191121 Getting back into the swing
 print("Welcome Back")
+
+# 20191205 Page 92 else clause
+from math import sqrt
+for n in range(99, 81, -1):
+    root = sqrt(n)
+    if root == int(root):
+        print(n)
+        break 
+else:
+    print("Didn't find it!")
