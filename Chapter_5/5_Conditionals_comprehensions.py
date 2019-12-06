@@ -27,4 +27,4 @@ print([b+'+'+g for b in boys for g in letterGirls[b[0]]])
 squares = {i:"{} squared is {}".format(i, i**2) for i in range(10)}
 print(squares[8])
 
-# decided to clear my keys.
+# Redid my ssh config
