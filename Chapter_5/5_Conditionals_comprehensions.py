@@ -26,3 +26,5 @@ print([b+'+'+g for b in boys for g in letterGirls[b[0]]])
 # Page 93 dictionary comprehension
 squares = {i:"{} squared is {}".format(i, i**2) for i in range(10)}
 print(squares[8])
+
+# corrected key issue. 
