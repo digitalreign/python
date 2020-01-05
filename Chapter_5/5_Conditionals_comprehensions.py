@@ -29,3 +29,5 @@ print(squares[8])
 
 # reset my global email address
 # fixed my ssh keys again. 
+
+# linking my github again
